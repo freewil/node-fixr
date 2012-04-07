@@ -17,6 +17,9 @@
     "coffee-script": "1.2.0",
     "pg": "0.6.17"
   },
+  "bundledDependencies": [
+    "sql"
+  ],
   "devDependencies": {
     "mocha": "1.0.1"
   },
