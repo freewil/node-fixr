@@ -2,7 +2,7 @@
   "author": "Sean Lavine <sean@eternalrise.com>",
   "name": "fixr",
   "description": "Create data fixtures for testing projects",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": {
     "url": "https://github.com/freewil/node-fixr.git"
   },
@@ -17,11 +17,11 @@
     "coffee-script": "1.2.0",
     "pg": "0.6.17"
   },
-  "bundledDependencies": [
-    "sql"
-  ],
   "devDependencies": {
     "mocha": "1.0.1"
   },
-  "optionalDependencies": {}
+  "optionalDependencies": {},
+  "bundleDependencies": [
+    "sql"
+  ]
 }
