@@ -4,7 +4,7 @@
   "description": "Create data fixtures for testing projects",
   "version": "0.0.1",
   "repository": {
-    "url": ""
+    "url": "https://github.com/freewil/node-fixr.git"
   },
   "main": "lib/",
   "scripts": {
