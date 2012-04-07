@@ -13,7 +13,7 @@ class pgEngine
   fix: (data, cb) ->
     @beforeFix data, (err, data) =>
       if err
-        cb err
+        return cb err
       cbErr = null
       @client.on 'drain', ->
         cb cbErr
