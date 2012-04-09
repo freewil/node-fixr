@@ -42,11 +42,10 @@ var fixr = new Fixr(engineConfig);
 fixr.fix('./fixtures/users', function(err) {
   assert.ifError(err);
   console.log('fixture data loaded!');
+  /*
+   * do some test that requires user data loaded by the fixture
+   */
 });
-
-/*
- * do some test that requires user data loaded by the fixture
- */
 ```
 
 ## Install

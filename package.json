@@ -2,6 +2,11 @@
   "author": "Sean Lavine <sean@eternalrise.com>",
   "name": "fixr",
   "description": "Create data fixtures for testing projects",
+  "keywords": [
+    "fixture",
+    "test",
+    "db test"
+  ],
   "version": "0.0.6",
   "repository": {
     "type": "git",
