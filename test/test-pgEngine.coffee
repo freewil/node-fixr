@@ -1,11 +1,11 @@
 assert = require 'assert'
 {randomBytes} = require 'crypto'
-pgEngine = require '../lib/engines/pg'
+fixr = require '../'
 beforeFix = require './helpers/myusers_beforefix'
 pgEngineConfig = require './pgEngineConfig'
 
 describe 'pgEngine', ->
-  engine = new pgEngine pgEngineConfig
+  engine = new fixr.pgEngine pgEngineConfig
   record = {}
   
   before (done) ->

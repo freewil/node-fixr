@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git://github.com/freewil/node-fixr.git"
   },
-  "main": "lib/",
+  "main": "index",
   "scripts": {
     "test": "make test"
   },

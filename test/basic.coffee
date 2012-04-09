@@ -1,6 +1,6 @@
 {randomBytes} = require 'crypto'
 assert = require 'assert'
-Fixr = require '../lib'
+Fixr = require '../'
 engineConfig = require './pgEngineConfig'
 beforeFix = require './helpers/myusers_beforefix'
 
@@ -25,7 +25,7 @@ describe 'Fixr', ->
           }
         ]
       # setup fixr
-      fixr = new Fixr engineConfig
+      fixr = new Fixr.Fixr engineConfig
       fixr.beforeFix = beforeFix
       done()
       
