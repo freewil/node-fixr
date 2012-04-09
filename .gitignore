@@ -1,4 +1,2 @@
-node_modules/.bin
-node_modules/coffee-script
-node_modules/pg
-node_modules/mocha
+node_modules/
+test/pgEngineConfig.json

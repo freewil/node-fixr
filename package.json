@@ -16,7 +16,8 @@
   },
   "dependencies": {
     "coffee-script": "1.2.0",
-    "pg": "0.6.17"
+    "pg": "0.6.17",
+    "async": "0.1.18"
   },
   "devDependencies": {
     "mocha": "1.0.1"
