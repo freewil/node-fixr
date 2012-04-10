@@ -5,6 +5,8 @@ Create data fixtures for testing Node.js projects.
 Currently only works with Postgres, more engines can be easily added for
 other SQL servers.
 
+This project is very new and thus the API is subject to incompatible changes.
+
 ## Example
 
 ### fixtures/users.json
@@ -31,14 +33,14 @@ var Fixr = require('fixr');
 var assert = require('assert');
 
 var engineConfig = {
-  "host": "localhost",
-  "port": 5432,
-  "database": "mydb_test",
-  "user": "postgres",
-  "password": ""
+  host: 'localhost',
+  port: 5432,
+  database: 'mydb_test',
+  user: 'postgres',
+  password: ''
 };
 
-var fixr = new Fixr(engineConfig);
+var fixr = new Fixr.Fixr(engineConfig);
 fixr.fix('./fixtures/users', function(err) {
   assert.ifError(err);
   console.log('fixture data loaded!');
