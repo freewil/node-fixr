@@ -18,6 +18,7 @@ class pgEngine
     cb err
     
   afterFix: (err, cb) ->
+    @client.end()
     cb err
     
   fix: (data, cb) ->
