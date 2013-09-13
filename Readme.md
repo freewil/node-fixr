@@ -41,7 +41,7 @@ var engineConfig = {
   password: ''
 };
 
-var fixr = new Fixr.Fixr(engineConfig);
+var fixr = new Fixr(engineConfig);
 fixr.fix('./fixtures/users', function(err) {
   assert.ifError(err);
   console.log('fixture data loaded!');
