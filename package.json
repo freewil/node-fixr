@@ -1,6 +1,6 @@
 {
   "author": "Sean Lavine <sean@eternalrise.com>",
-  "name": "fixr",
+  "name": "fixr-compiled",
   "description": "Create data fixtures for testing projects",
   "keywords": [
     "fixture",
