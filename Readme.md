@@ -54,7 +54,7 @@ fixr.fix('./fixtures/users', function(err) {
 ## Install
 
 ```
-npm install fixr
+npm install fixr-compiled
 ```
 
 ## Mentions
