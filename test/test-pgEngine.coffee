@@ -27,8 +27,6 @@ describe 'pgEngine', ->
       # hackish way to force beforeFix to be called to create temp table
       # since we are skipping fix() and calling _fixRecord() directly for testing
       engine.beforeFix = beforeFix
-      console.log('engine.keys:');
-      console.log(engine.keys);
       engine.beforeFix record, (err, data) ->
         assert.ifError err
         engine._fixRecord 'myusers', record, done
