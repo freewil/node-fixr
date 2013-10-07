@@ -19,7 +19,7 @@ describe 'pgEngine', ->
   describe '_getQuery()', ->
     it 'should produce an INSERT statement for a record', ->
       query = engine._getQuery 'myusers', record
-      assert.equal query, 'INSERT INTO myusers (email, password) VALUES ($1, $2)'
+      assert.equal query, 'INSERT INTO "myusers" ("email", "password") VALUES ($1, $2)'
       
   describe '_fixRecord()', ->
     it 'should insert a single record', (done) ->
