@@ -1,5 +1,6 @@
-[![build status](https://secure.travis-ci.org/freewil/node-fixr.png)](http://travis-ci.org/freewil/node-fixr)
 # Fixr
+
+[![build status](https://travis-ci.org/freewil/node-fixr.png)](https://travis-ci.org/freewil/node-fixr)
 
 Create data fixtures for testing Node.js projects.
 
